@@ -8,7 +8,8 @@
   },
   "peerDependencies": {
     "react-native-keychain": "^4.0.5",
-    "react-native-pbkdf2": "https://github.com/SolidStateGroup/react-native-pbkdf2"
+    "react-native-pbkdf2": "https://github.com/SolidStateGroup/react-native-pbkdf2",
+    "@react-native-community/async-storage": "^1.8.0"
   },
   "dependencies": {
     "react-native-simple-encryption": "https://github.com/kyle-ssg/react-native-simple-encryption#master",

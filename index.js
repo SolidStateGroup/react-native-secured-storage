@@ -3,6 +3,7 @@ import PBKDF2 from 'react-native-pbkdf2';
 import SimpleCryptoJS from 'simple-crypto-js';
 import { encrypt, decrypt } from 'react-native-simple-encryption';
 import * as Keychain from 'react-native-keychain';
+import AsyncStorage from '@react-native-community/async-storage';
 
 const STORAGE_KEY = 'secured-storage-key'; // Stores the local storage decryption key in the keychain/keystore
 const MAP_KEY = 'secured-storage-keys'; // Stores all the encrypted db keys
