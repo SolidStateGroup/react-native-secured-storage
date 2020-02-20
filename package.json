@@ -1,0 +1,26 @@
+{
+  "name": "react-native-secured-storage",
+  "version": "1.0.1",
+  "description": "Secured AsyncStorage for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-native-keychain": "^4.0.5",
+    "react-native-pbkdf2": "https://github.com/SolidStateGroup/react-native-pbkdf2"
+  },
+  "dependencies": {
+    "react-native-simple-encryption": "https://github.com/kyle-ssg/react-native-simple-encryption#master",
+    "simple-crypto-js": "^1.1.1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "secure",
+    "storage",
+    "asyncstorage"
+  ],
+  "author": "SSG",
+  "license": "ISC"
+}
