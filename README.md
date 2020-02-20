@@ -5,13 +5,13 @@
 ### Install
 
 ```
-yarn add react-native-secured-storage react-native-keychain https://github.com/SolidStateGroup/react-native-pbkdf2
+yarn add react-native-secured-storage react-native-keychain https://github.com/SolidStateGroup/react-native-pbkdf2 @react-native-community/async-storage
 ```
 
 or
 
 ```
-npm install --save react-native-secured-storage react-native-keychain https://github.com/SolidStateGroup/react-native-pbkdf2
+npm install --save react-native-secured-storage react-native-keychain https://github.com/SolidStateGroup/react-native-pbkdf2 @react-native-community/async-storage
 ```
 
 ### Link
@@ -26,7 +26,7 @@ npm install --save react-native-secured-storage react-native-keychain https://gi
 
 
 ```bash
-$ react-native link react-native-keychain react-native-pbkdf2
+$ react-native link react-native-keychain react-native-pbkdf2 @react-native-community/async-storage
 ```
 
 
@@ -44,7 +44,7 @@ New React Native comes with `autolinking` feature, which automatically links Nat
 In order to get it to work, make sure you `unlink` dependencies first first:
 
 ```bash
-$ react-native unlink react-native-keychain react-native-pbkdf2
+$ react-native unlink react-native-keychain react-native-pbkdf2 @react-native-community/async-storage
 ```
 
 ## Usage
